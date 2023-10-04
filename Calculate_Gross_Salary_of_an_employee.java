@@ -5,10 +5,10 @@ public class Test{
         float s=sc.nextFloat();
         float hr=sc.nextFloat();
         float da=sc.nextFloat();
-        double n=0.12*s;
-        double m=s+hr+da+n;
-        System.out.printf("%.2f",n);
+        double pf=0.12*s;
+        double gs=s+hr+da+pf;
+        System.out.printf("%.2f",pf);
         System.out.println();
-        System.out.printf("%.2f",m);
+        System.out.printf("%.2f",gs);
     }
 }
