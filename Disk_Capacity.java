@@ -1,11 +1,13 @@
-import java.util.Scanner;
-public class main{
-    public static void main(String args[])
-    {
-        Scanner sc = new Scanner(System.in);
-        int n=sc.nextInt();
-        int a=sc.nextInt();
-        int b=sc.nextInt();
-        System.out.print(n*a*b*1024);
+import java.util.*;
+public class Test{
+    public static void main(String []args){
+        Scanner sc=new Scanner (System.in);
+        int n,m,x,y;
+        n=sc.nextInt();
+        m=sc.nextInt();
+        x=sc.nextInt();
+       // y=sc.nextInt();
+       long b=n*x*m*512*2;
+       System.out.println(b);
     }
 }
